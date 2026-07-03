@@ -507,12 +507,10 @@
             <div class="brand-mark">J</div>
             <div>
                 <div class="brand-name">Projects Portfolio</div>
-                <div class="brand-sub">Web · Apps · UI/UX · Web Scraping · AI Automation</div>
+                <div class="brand-sub">AI Video · Animation · CAD · Audio</div>
             </div>
             <div style="margin-left: auto; display: flex; gap: 10px; align-items: center;">
-                <a href="other-projects.html"
-                    style="color: var(--golden); text-decoration: none; font-size: 13px; font-weight: 600; border: 1px solid rgba(255, 255, 255, 0.2); padding: 5px 12px; border-radius: 999px; transition: 0.2s; background: rgba(255,255,255,0.05);">Other
-                    Categories &rarr;</a>
+                <a href="index.html" style="color: var(--golden); text-decoration: none; font-size: 13px; font-weight: 600; border: 1px solid rgba(255, 255, 255, 0.2); padding: 5px 12px; border-radius: 999px; transition: 0.2s; background: rgba(255,255,255,0.05);">&larr; Main Categories</a>
                 <div class="total" id="totalCount" style="margin-left: 0;"></div>
             </div>
         </div>
@@ -554,121 +552,86 @@
         };
 
         const DATA = [
-            {
-                id: 'web', label: 'Live Websites', h: 'Live Websites',
+{
+                id: 'aivideo', label: 'AI Video', h: 'AI Video Production',
                 groups: [
                     {
-                        sub: 'Featured builds', items: [
-                            { t: 'Asteras', u: 'https://asteras.com/', badge: 'Featured', },
-                            { t: 'Extell', u: 'https://extell.com/', badge: 'Featured' },
-                            { t: 'Chairish', u: 'https://www.chairish.com/', badge: 'Featured' },
-                            { t: 'Roberto Collina', u: 'https://www.robertocollina.com/', badge: 'Featured' },
-                            { t: 'Shop Dress Up', u: 'https://shopdressup.com/', badge: 'Featured' },
-                            { t: 'Aldersage', u: 'https://aldersage.com/', badge: 'Featured' },
-                            { t: 'Esther & Co.', u: 'https://www.esther.com.au/', badge: 'Featured' },
+                        sub: 'AI 3D animation', items: [
+                            { t: 'AI 3D Animation — Video 1', u: 'https://drive.google.com/file/d/1kVAQI9w20y85UUxi75pXJabo0-1xXXwN/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Animation — Video 2', u: 'https://drive.google.com/file/d/1LcBXc1m_BBp6M2oY7gZXadx0oRC0iRu7/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Animation — Video 3', u: 'https://drive.google.com/file/d/1Yrm_rzD4ZPXeADw1izv2PKZBD1xKkdI7/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Short Reel — 1', u: 'https://drive.google.com/file/d/1ScjbqWZveSMWMs_fzYrq0zqHdYEiBMm2/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Short Reel — 2', u: 'https://drive.google.com/file/d/1rgqoRf20tCpBRRyfvuGAL30OWjqA9WOg/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Story Animation', u: 'https://drive.google.com/file/d/10nFfJP9jNM-6TNCQ7V2-KFUDGKoMKbR9/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Viral Animation', u: 'https://drive.google.com/file/d/1MqHWKrovsuXupiTYr9Z27P6eeWPwK1hj/view?usp=drive_link', tile: 'video' },
+                            { t: '3D Animation — Short Reels', u: 'https://drive.google.com/drive/folders/1wZ_kKbB_bqD0SH3Y5EMNCpUmnCJr4Jxf?usp=sharing', tile: 'drive' },
+                            { t: '3D Animation — Firm Video', u: 'https://drive.google.com/drive/folders/1znPTgkXnM1kMygBVZjalHYTue-VF-sha?usp=drive_link', tile: 'drive' },
+                            { t: '3D AI Animal & Kid Animation', u: 'https://drive.google.com/file/d/1g1NqJq93XtYqZSjDPZYL_BPQ5PeEzzFl/view?usp=sharing', tile: 'video' },
                         ]
                     },
                     {
-                        sub: 'Recent work', items: [
-                            { t: 'AV Equipment', u: 'https://avequipment.com.au/' },
-                            { t: 'GO Transit', u: 'https://gotransit.com.au/landing-page/' },
-                            { t: 'Hyper Healthcare', u: 'https://www.hyper-healthcare.com/' },
-                            { t: 'The SBA Shop', u: 'https://thesbashop.com/' },
-                            { t: 'Bolsador', u: 'https://bolsador.com/' },
-                            { t: 'NOV8 Tech', u: 'https://nov8.tech/' },
-                            { t: 'Golden Summit Forest', u: 'https://goldensummitforest.com/' },
-                            { t: 'Eger & Co', u: 'https://egerandco.com/' },
-                            { t: 'Heathcliffe Interiors', u: 'http://heathcliffeinteriors.co.uk/' },
-                            { t: 'CleanWash Laundry', u: 'https://cleanwashlaundry.com/' },
-                            { t: 'Alex Calibur', u: 'https://alexcalibur.com/' },
-                            { t: 'StageRunner', u: 'https://stagerunner.net/' },
-                            { t: 'CrossFit Chemistry', u: 'https://crossfitchemistry.com.au/' },
-                            { t: 'Oxford Comfort', u: 'https://oxfordcomfort.com/' },
-                            { t: 'Beacon Bay Trade Services', u: 'https://www.beaconbaytradeservices.com/' },
-                            { t: 'Swiftbridge Capital', u: 'https://swiftbridgecapital.com/' },
-                            { t: 'Modcon Homes', u: 'https://www.modconhomes.com.au/' },
-                            { t: 'Together for Truth', u: 'https://togetherfortruth.blog/' },
-                            { t: 'Forta Capital', u: 'https://fortacapital.com/' },
+                        sub: 'AI music videos', items: [
+                            { t: 'AI 3D Music Video — 1', u: 'https://drive.google.com/file/d/1arDBPgP-OOc_gE04SeFsV-2Iowu4BfWD/view?usp=drive_link', tile: 'video' },
+                            { t: 'AI 3D Music Video — 2', u: 'https://drive.google.com/file/d/1o9vBOIdwfCikUZwxHhRzy03Nnyxke8dx/view?usp=drive_link', tile: 'video' },
+                        ]
+                    },
+                    {
+                        sub: 'Spokesperson & UGC', items: [
+                            { t: 'Spokesperson Video — 1', u: 'https://drive.google.com/file/d/14asSAajsIL7r4XTA4aHBfm3_qIWoSMeI/view?usp=drive_link', tile: 'video' },
+                            { t: 'Spokesperson Video — 2', u: 'https://drive.google.com/file/d/1TZIScN3f1ZggnJ4WI8h7hDrnrG4Is8lc/view?usp=drive_link', tile: 'video' },
+                            { t: 'Spokesperson — Full Folder', u: 'https://drive.google.com/drive/folders/17F75eILF0_ZRiunf41Ucf3xUYsZ97vu6?usp=drive_link', tile: 'drive' },
+                            { t: 'AI UGC Ads — Folder 1', u: 'https://drive.google.com/drive/folders/1Zj10QnnhTcmAUZsGYUkmQKQM_9Mfsvjk', tile: 'drive' },
+                            { t: 'AI UGC Ads — Folder 2', u: 'https://drive.google.com/drive/folders/1SqQj-Bb4Y16LS1TGl2rESKvvQHL-Huxm', tile: 'drive' },
+                            { t: 'AI Main UGC Videos', u: 'https://drive.google.com/drive/folders/1ibgij3X43xBq5E6VbpAp_Axaie7Qubtt', tile: 'drive' },
+                            { t: 'AI Short Character Reels', u: 'https://drive.google.com/drive/u/0/folders/1TAxBtbHsB0_HWJMPvu_TStTcLeGdpRu0', tile: 'drive' },
+                        ]
+                    },
+                    {
+                        sub: 'Veo 3, SaaS & motion graphics', items: [
+                            { t: 'Veo 3 Ads Videos', u: 'https://drive.google.com/drive/folders/1WDFGv5uuOtdNksyCr99XylR6Jf7vyBoD?usp=sharing', tile: 'drive' },
+                            { t: 'Veo — Company Shorts (YouTube)', u: 'https://www.youtube.com/@codeupsolutions/shorts' },
+                            { t: 'Veo — Company Portfolio Video', u: 'https://drive.google.com/file/d/1f6PqV1y64vt0lS4bnirbDQZAAxTlg6TP/view?usp=sharing', tile: 'video' },
+                            { t: 'SaaS Product Videos', u: 'https://drive.google.com/drive/u/0/folders/1vgQOy9iAvpRYqTuWti7T9VnL6Ih1n5yK', tile: 'drive' },
+                            { t: 'Premium Motion Graphics AI', u: 'https://drive.google.com/file/d/13zKTSvoCOXVphBT-mRptlgwWarmINbrj/view?usp=sharing', tile: 'video' },
+                            { t: 'TikTok AI Animation Video', u: 'https://drive.google.com/file/d/1LXoidne58EAxevpvJfp3Km3hdjwqJtDc/view?usp=sharing', tile: 'video' },
+                            { t: 'Higgsfield AI Videos', u: 'https://drive.google.com/drive/folders/1ST4T011FVnkzJBUuISrYjv23BiaYm89n?usp=sharing', tile: 'drive' },
                         ]
                     },
                 ]
             },
-            {
-                id: 'webux', label: 'Web UI/UX', h: 'Website UI/UX Design (Figma)',
+{
+                id: 'anim', label: 'Animation Studio', h: '2D & 3D Animation Studio',
                 groups: [
                     {
                         sub: null, items: [
-                            { t: 'MYCELAB — Website Design', u: 'https://www.figma.com/design/wZYpCM4852LLaLJ7sChy62/MYCELAB_Website-Design' },
-                            { t: 'EWHIP — UI/UX Website', u: 'https://www.figma.com/design/BHBUthzlyHeTUlUZLZ4TO7/Blake-B._EWHIP_Ui-Ux-Website' },
-                            { t: 'WA Sangiovese — Winery Website', u: 'https://www.figma.com/design/He2VGsb3sGMP1blnpPqJhB/Sanjana_WA_Sangiovese_Website' },
-                            { t: 'Sensolight — Website', u: 'https://www.figma.com/design/zKTcZRwXI6dMVK1tCdNETg/Sensolight-website' },
-                            { t: 'Interior Design — Website', u: 'https://www.figma.com/design/sRn7L2O56by1XEMuY4que1/Interior-Design-Website' },
-                            { t: 'The Spice Theory — Website', u: 'https://www.figma.com/design/GQuPovKZ8gTVGm4OUPw9qO/The-Spice-Theory_website_design' },
-                            { t: 'Exclusive Cars — Web Design', u: 'https://www.figma.com/design/7lUL8ICJWLp7msOrTiPmuk/Furkan-U._Exclusive-cars-websidesign' },
+                            { t: 'Main Portfolio', u: 'https://drive.google.com/drive/u/3/folders/1X3syFxnJ2FitPJcddmAS1_6IGiRWZA_g', tile: 'drive' },
+                            { t: '2D Animation Portfolio', u: 'https://drive.google.com/drive/folders/1krWkUQNpjDxgrYkPxWKw6CwewvEfh9lK?usp=sharing', tile: 'drive' },
+                            { t: '2D Animation — Collection 2', u: 'https://drive.google.com/drive/folders/1UghVL0-H_7yyouDK3RruFjXaqUj95uMM?usp=sharing', tile: 'drive' },
+                            { t: 'Cash Cow — Faceless YouTube', u: 'https://drive.google.com/drive/folders/1aLZtGfyLAJUvC3lVVjyh2ij_OYui63D0?usp=sharing', tile: 'drive' },
+                            { t: 'Short Reels Collection', u: 'https://drive.google.com/drive/folders/1IO9o0s8WRc2Tz_2Ug8i3shabaZwuBVNN', tile: 'drive' },
+                            { t: 'Pixel Anime Studio — YouTube', u: 'https://www.youtube.com/@pixelanimestudio' },
+                            { t: 'Pixel Anime Studio — Instagram', u: 'https://www.instagram.com/pixelanimestudio/' },
                         ]
                     },
                 ]
             },
-            {
-                id: 'appux', label: 'App UI/UX', h: 'Mobile App UI/UX Design (Figma)',
+{
+                id: 'cad', label: 'CAD & 3D', h: 'CAD — 2D Drawings & 3D Models',
                 groups: [
                     {
                         sub: null, items: [
-                            { t: 'Swish — Social App UI/UX', u: 'https://www.figma.com/design/zQq4umTKPLTFcdYVvk4Ogt/Mirko_Swish-app_Ui-Ux-design' },
-                            { t: 'Outfind — App Design', u: 'https://www.figma.com/design/D8sS1Tn8CPgbhzfz9XRTXb/Marijo_M._Outfind-App-design' },
-                            { t: 'Kollabz — App Design', u: 'https://www.figma.com/design/nKP41pFQWLBUvwJ22l8pOz/Marijo_M._Kollabz-App-design' },
-                            { t: 'FreelanZ — AI App UI/UX', u: 'https://www.figma.com/design/6CV2s3Jt574x3lhmOexRac/FreelanZ-App-AI-UI%2FUX-design' },
-                            { t: 'Babysitting App — Design', u: 'https://www.figma.com/design/RkAr8Y2SQjSluvUakJOFyA/Babysitting-app-design---app' },
+                            { t: '2D Technical Drawings', u: 'https://drive.google.com/drive/folders/1Wm9GRc5nUyXEfpGty9lrNvwY9STAir5Q?usp=sharing', tile: 'cad' },
+                            { t: '3D Models', u: 'https://drive.google.com/drive/u/0/folders/1x8bwTcRElw7guuYvdejXY8oKf-iSUjFs', tile: 'cad' },
                         ]
                     },
                 ]
             },
-            {
-                id: 'apps', label: 'Published Apps', h: 'Published Mobile Apps',
-                groups: [
-                    {
-                        sub: 'TrakMD — Doctor & patient platform', items: [
-                            { t: 'TrakMD Website', u: 'https://trakmd.com/' },
-                            { t: 'TrakMD — Google Play', u: 'https://play.google.com/store/apps/details?id=com.trakmd&hl=en' },
-                            { t: 'TrakMD — App Store', u: 'https://apps.apple.com/us/app/trakmd-doctor-app/id1476907007' },
-                        ]
-                    },
-                    {
-                        sub: 'Zenklub — Mental wellness platform', items: [
-                            { t: 'Zenklub Website', u: 'https://zenklub.com.br/' },
-                            { t: 'Zenklub — Google Play', u: 'https://play.google.com/store/apps/details?id=com.zenklub.android' },
-                            { t: 'Zenklub — App Store', u: 'https://apps.apple.com/br/app/zenklub-se-conhecer-faz-bem/id1282953238' },
-                        ]
-                    },
-                    {
-                        sub: 'More published apps', items: [
-                            { t: 'Fujitec eClaim', u: 'https://play.google.com/store/apps/details?id=com.fujitec.fujitec_eclaim' },
-                            { t: 'Mashraben Aab', u: 'https://play.google.com/store/apps/details?id=com.azaan.mashrabenaab' },
-                            { t: 'Crypto App', u: 'https://play.google.com/store/apps/details?id=com.myblackmarkete.cypto_app' },
-                        ]
-                    },
-                ]
-            },
-            {
-                id: 'auto', label: 'AI Automation', h: 'AI Automation & Workflows',
+{
+                id: 'audio', label: 'Audio', h: 'Audio Production',
                 groups: [
                     {
                         sub: null, items: [
-                            { t: 'Automation Projects', u: 'https://drive.google.com/drive/folders/1cAGqVbqfr6dogXi7BqPPZ3L3G3dT8ans?usp=sharing', tile: 'gear' },
-                        ]
-                    },
-                ]
-            },
-            {
-                id: 'scraping', label: 'Web Scraping', h: 'Web Scraping & Data Extraction',
-                groups: [
-                    {
-                        sub: 'Google, Apollo & Apify Extracts', items: [
-                            { t: 'Companies Data', u: 'companies.csv', img: 'companies_sheet.png' },
-                            { t: 'Contacts Data', u: 'contacts.csv', img: 'contacts_sheet.png' },
-                            { t: 'Deals Data', u: 'deals.csv', img: 'contacts_sheet.png' },
-                            { t: 'SaaS Marketing Leads (CSV)', u: 'saas_marketing_directors_leads.csv', img: 'companies_sheet.png' },
-                            { t: 'SaaS Marketing Leads (XLSX)', u: 'saas_marketing_directors_leads.xlsx', img: 'contacts_sheet.png' },
+                            { t: 'MP3 Audio Collection', u: 'https://drive.google.com/drive/folders/1NKngrgG-iE86l_y1wXCZLbM30ls8wDa-?usp=drive_link', tile: 'audio' },
                         ]
                     },
                 ]
